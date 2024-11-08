@@ -14,7 +14,7 @@
     <section id="formulario" class="formulario">
         <div class="interface">
             <h2 class="titulo">FALE CONOSCO.</h2>
-            <form action="https://formsubmit.co/odynsystems@gmail.com" method="POST">
+            <form action="https://api.staticforms.xyz/submit" method="post">
                 <input type="text" name="nome" id="nome" placeholder="Nome Completo:" required>
                 <label for="nome"></label>
                 <input type="email" name="email" id="email" placeholder="Email:" required>
@@ -23,6 +23,8 @@
                 <label for="celular"></label>
                 <textarea name="mensagem" id="mensagem" placeholder="Mensagem" required></textarea>
                 <label for="mensagem"></label>
+                <input type="hidden" name="accessKey" value="393d3b01-55a8-4803-a054-a384de562f0f">
+                <input type="hidden" name="redirectTo" value="http://127.0.0.1:5500/pages/confirmacao/confirmacao.html"> 
                 <div class="btn-enviar"><input type="submit" value="ENVIAR"></div>
             </form> 
         </div>
