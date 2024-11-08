@@ -69,3 +69,29 @@ body {
     height: auto;
     margin-right: -40px;
 }
+
+@media screen and (max-width: 1265px) {
+    .text-content {
+        margin-left: 0px;
+    }
+
+    .image-content img {
+        margin-right: 0px;
+    }
+}
+
+@media screen and (max-width: 1080px) {
+    .hero-section {
+        flex-direction: column-reverse;
+    }
+
+    .image-content {
+        margin-bottom: 2px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .acess-button {
+        display: none;
+    }
+}

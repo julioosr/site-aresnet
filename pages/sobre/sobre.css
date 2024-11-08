@@ -75,5 +75,22 @@ body {
 }
 
 .sobre-section .text-content p a {
-    color: white;  /* Define a cor branca para o link */
+    color: white;  
+}
+
+@media screen and (max-width: 1365px) {
+    .sobre-section .text-content {
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+}
+
+@media screen and (max-width: 1080px) {
+    .sobre-section {
+        flex-direction: column;
+    }
+
+    .sobre-section .image-content {
+        margin-right: 0px;
+    }
 }

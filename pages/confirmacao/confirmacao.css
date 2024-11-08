@@ -10,50 +10,50 @@ body {
     color: #fff;
 }
 
-.navbar-manutencao {
+.navbar-confirmacao {
     display: flex;
     justify-content: center; 
     padding: 20px;
     margin-top: 28px;
 }
 
-.navbar-manutencao .nav-links {
+.navbar-confirmacao .nav-links {
     list-style: none;
 }
 
-.navbar-manutencao .nav-links li {
+.navbar-confirmacao .nav-links li {
     margin-top: 0;
 }
 
-.navbar-manutencao .nav-links a {
+.navbar-confirmacao .nav-links a {
     text-decoration: none;
     font-size: 16px;
     color: #afafaf;
     transition: color 0.3s;
 }
 
-.navbar-manutencao .nav-links a:hover {
+.navbar-confirmacao .nav-links a:hover {
     color: #ffffff;
 }
 
-.manutencao-section {
+.confirmacao-section {
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 80vh;
 }
 
-.manutencao-section .text-container {
+.confirmacao-section .text-container {
     margin-right: 20px; 
 }
 
-.manutencao-section h1 {
+.confirmacao-section h1 {
     font-size: 2.5em; 
     font-weight: bold;
     margin-bottom: 10px;
 }
 
-.manutencao-section p {
+.confirmacao-section p {
     font-size: 1.2em; 
     line-height: 1.6; 
     max-width: 600px;
@@ -61,20 +61,20 @@ body {
     text-align: justify;
 }
 
-.manutencao-section img {
-    width: 16%; 
+.confirmacao-section img {
+    width: 9%; 
     max-width: 400px;
     height: auto;
     margin-left: 60px;
 }
 
-.manutencao-section .social-icons {
+.confirmacao-section .social-icons {
     display: flex;
     justify-content: center; 
     margin-top: 30px; 
 }
 
-.manutencao-section .icon {
+.confirmacao-section .icon {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -87,22 +87,22 @@ body {
     margin-left: 20px;
 }
 
-.manutencao-section .icon:hover {
+.confirmacao-section .icon:hover {
     opacity: 0.85;
 }
 
-.manutencao-section i {
+.confirmacao-section i {
     font-size: 18px;
     align-items: center;
     transition: transform 0.2s;
     margin-top: 2px;
 }
 
-.manutencao-section i:hover {
+.confirmacao-section i:hover {
     transform: scale(1.15);
 }
 
-.manutencao-section .social-icons .odyn-img {
+.confirmacao-section .social-icons .odyn-img {
     width: 80px;
     height: 69px;
     margin-left: -105px;
@@ -110,18 +110,21 @@ body {
     margin-top: -5px;
 }
 
-.manutencao-section .social-icons .odyn-img:hover {
+.confirmacao-section .social-icons .odyn-img:hover {
     transform: scale(1.09);
 }
 
-@media screen and (max-width: 900px) {
-    .manutencao-section {
-        margin-left: 20px;
+@media screen and (max-width: 1080px) {
+    .confirmacao-section {
         flex-direction: column-reverse;
-        margin-top: -100px;
     }
 
-    .manutencao-section img {
-        width: 35%;
+    .confirmacao-section img {
+        width: 12%;
+        margin-bottom: 8px;
+    }
+
+    .confirmacao-section .text-container {
+        margin-left: 15px;
     }
 }
